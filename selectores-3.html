@@ -20,6 +20,10 @@
 
     }
 
+    p::after {
+        content: "😎";
+    }
+
     p::before {
         content: "🎶";
     }
@@ -31,6 +35,9 @@
     div p:nth-child(2) {
         color: goldenrod;
     }
+    ::placeholder {
+        color: cornflowerblue;
+    }
 </style>
 
 <body>
@@ -40,6 +47,7 @@
         <p>master</p>
         <p>Lo mejor</p>
     </div>
+    <input type="text" placeholder="name">
 
 </body>
 
