@@ -1,19 +1,19 @@
-img{
-    height: 400px;
-    width: 600px;
-    margin:auto;
-    display: block;
+img {
+  height: 400px;
+  width: 600px;
+  margin: auto;
+  display: block;
 }
 
-h1{
-    color: aqua;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 4em;
+h1 {
+  color: aqua;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 4em;
 }
 
-p{
-    color: blueviolet;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2em;
+p {
+  color: blueviolet;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2em;
 }
