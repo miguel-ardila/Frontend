@@ -38,9 +38,9 @@ function createCircle(radian) {
 
     ctx.beginPath();
     var gradient = ctx.createLinearGradient(0, 0, 230, 230);
-    gradient.addColorStop(0, "#ff0000");
-    gradient.addColorStop(0.5, "#ff7300");
-    gradient.addColorStop(1, "#fff300");
+    gradient.addColorStop(0, "#009092");
+    gradient.addColorStop(0.5, "#00c6c7");
+    gradient.addColorStop(1, "#8bffff");
     ctx.arc(115, 115, 90, 0, radian, false);
     ctx.strokeStyle = gradient;
     ctx.lineWidth = 30;
