@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-        <style>
-            .container {
-                display: flex;
-                background-color: blueviolet;
-            }
-            .item {
-                width: 30px;
-                height: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container"></div>
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .container {
+            display: flex;
+            background-color: blueviolet;
+            justify-content: center;
+            height: 200px;
+        }
+        .item {
+            width: 30px;
+            height: 30px;
+            background-color: burlywood;
+        }
+        .container .item:nth-child(2n + 1) {
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
         <div class="item"></div>
         <div class="item"></div>
         <div class="item"></div>
         <div class="item"></div>
-    
-    </body>
+    </div>
+</body>
+
 </html>
